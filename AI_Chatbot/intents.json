@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your working hours?",
+        "When are you open?",
+        "Office timings",
+        "Working time"
+      ],
+      "responses": [
+        "We operate from 9 AM to 6 PM, Monday to Friday."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer?",
+        "What do you do?",
+        "Your services",
+        "What solutions do you provide?"
+      ],
+      "responses": [
+        "We provide software development, AI solutions, and IT consulting services."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Exit"],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Thanks for visiting. See you soon!"
+      ]
+    }
+  ]
+}
